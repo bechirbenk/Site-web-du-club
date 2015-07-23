@@ -1,0 +1,60 @@
+.black
+{
+	background-color: #333;
+}
+.traitdroite
+    {
+    border-right: 1px solid white;
+    }
+  .textblanc
+  {
+  	color: white;
+  	
+  }
+  .textnoir
+  {
+    olor: black;
+  }
+  .argent
+  {
+  	color: silver;
+  }
+
+  .logo
+ {
+ 	padding-right:20px;
+  padding-left: 0px;
+  margin-left: 0px;
+ 	border-right: 12px solid silver;
+ 	height:150px ;
+ 	width:180px;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+ .img_carousel
+ {
+ 	height: 100px;
+ 	width:1300px;
+ }
+.carousel-inner > .item > img{
+       width:1300px;
+       height:700px;
+     }
+
+ #myCarousel
+ {
+ 	margin-top: 50px;
+ }
+ .yellow
+ {
+    background-color: #f0ad4e;
+ }
+  .gris
+ {
+    background-color: #d9534f;
+ }
+ h3
+ {
+  text-align: center;
+ }
