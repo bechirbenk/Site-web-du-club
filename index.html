@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>BootStrap</title>
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <head>
+		    <title>BootStrap</title>
+		    <meta charset="UTF-8" />
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">		
-	</head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">		
+	  </head>
 
 
 
-	<body>
-      <div class="container-fluid">
-          <div class="row black " >
-              <div class=" col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
-                <img class="logo" src="js.png"  />
-              </div>
-              <div class="col-sm-offset-1 col-md-6 col-lg-6 col-sm-6  hidden-xs">
-                <div class="row">
-                  <h2 class="textblanc ">Club Jeunes et Sciences Hammam Sousse</h2>
+	  <body>
+
+        <div class="container-fluid">
+            <div class="row black " >
+                <div class=" col-xs-12 col-sm-4 col-md-3 col-lg-2 ">
+                    <img class="logo imgcentre" src="js.png"  />
                 </div>
-                <div class="row">
-                  <h4 class="argent ">Apprendre et Aider les autres a apprendre</h4>
+                <div class="hidden-xs col-md-5 col-lg-7 col-sm-7 col-xs-7  ">
+                    <div class="row">
+                        <h2 class="textblanc ">Club Jeunes et Sciences Hammam Sousse</h2>
+                    </div>
+                    <div class="row">
+                        <h4 class="argent ">Apprendre et Aider les autres a apprendre</h4>
+                    </div>
+                    <div class="row"></div>
                 </div>
-                <div class="row"></div>
-              </div>
-              <div class="col-lg-3 col-md-3  col-sm-3 col-xs-12">
-                <fieldset>     
-                <legend class="textblanc">Connexion</legend>           
-                  <form>
-                  <table>
-                    <tr>
-                      <td class="textblanc">pseudonyme</td>
-                      <td colspan="2"><input></td>
-                    </tr>
-                    <tr>
-                      <td class="textblanc">mot de passe</td>
-                      <td colspan="2"><input type="password"></td>
-                    </tr>
-                    <tr>
-                      <td><a href="">Mot de passe oublié</a></td>
-                      <td><a href="">S'inscrire</a></td>
-                      <td><input type="submit"> </td>
-                    </tr>
-                  </table>
-                
-                  
-                </form>
+                <div class="col-lg-2 col-md-2  col-sm-12 col-xs-12">
+                    <fieldset>     
+                        <legend class="textblanc">Connexion</legend>           
+                        <form>
+                            <table>
+                                <tr>
+                                    <td class="textblanc">pseudonyme</td>
+                                    <td colspan="2"><input></td>
+                                </tr>
+                                <tr>
+                                    <td class="textblanc">mot de passe</td>
+                                    <td colspan="2"><input type="password"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">Mot de passe oublié</a></td>
+                                    <td><a href="">S'inscrire</a></td>
+                                    <td><input type="submit"> </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
 
-                </fieldset>
 
-              </div>
-          </div>
-      </div>
-			<nav class="navbar navbar-default">
+
+
+
+        
+			<nav class="navbar navbar-inverse">
   				<div class="container-fluid">
     				<!-- Brand and toggle get grouped for better mobile display -->
     				<div class="navbar-header">
@@ -73,19 +76,21 @@
     				</div>
 					
     				<!-- Collect the nav links, forms, and other content for toggling -->
-    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    				<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+              
+
       					<ul class="nav navbar-nav">
         					<li class="active"><a href="index.html">Acceuil<span class="sr-only">(current)</span></a></li>
-        					<li><a href="#">Presentation du Club</a></li>
+        					<li><a href="presentation.html">Presentation du Club</a></li>
         					<li class="dropdown">
           						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activités <span class="caret"></span></a>
           						<ul class="dropdown-menu">
-            						<li><a href="#">Astronomie</a></li>
-            						<li><a href="#">Modélisme</a></li>
-            						<li><a href="#">Electronique</a></li>
-                        <li><a href="#">Informatique</a></li>
-                        <li><a href="#">Robotique</a></li>
-                        <li><a href="#">Pour Les Enfants</a></li>
+            						<li><a href="astro.html">Astronomie</a></li>
+                        <li><a href="modelisme.html">Modélisme</a></li>
+                        <li><a href="electronique.html">Electronique</a></li>
+                        <li><a href="informatique.html">Informatique</a></li>
+                        <li><a href="robotique.html">Robotique</a></li>
+                        <li><a href="enfants.html">Pour Les Enfants</a></li>
           						</ul>
         					</li>
                   <li class="dropdown">
@@ -118,96 +123,125 @@
       					</ul>
       					<form class="navbar-form navbar-right" role="search">
         					<div class="form-group">
-          						<input type="text" class="form-control" placeholder="Rechercher">
+          						<input type="text" class="form-control hidden-md hidden-sm" placeholder="Rechercher">
        						 </div>
-        					<button type="submit" class="btn btn-default">Rechercher</button>
+        					<button type="submit" class="btn btn-default hidden-md hidden-sm">Rechercher</button>
       					</form>
-      					
-                <!-- carousel-->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                  </ol>
+		    </div>
+      </nav>
 
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img class="img_carousel"src="img/nos.jpg" alt="nos">
-                      <div class="carousel-caption">
-                        <h3>Night Of Stars</h3>
-                        <p>Une Nuité Astronomique Organisé par le Club a El-Kantoui</p>
-                      </div>
-                    </div>
+  <!-- Carusel-->
+    
 
-                    <div class="item">
-                      <img class="img_carousel" src="img/rc.jpg" alt="rc">
-                      <div class="carousel-caption">
-                        <h3>Robot Camp</h3>
-                        <p>Participation du Club au Concours National de Robotique RobotCamp a l'ISSAT de Sousse</p>
-                      </div>
-                    </div>
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
 
-                    <div class="item">
-                      <img class="img_carousel" src="img/dara.jpg" alt="dara">
-                      <div class="carousel-caption">
-                        <h3>الدارة الكهربائية</h3>
-                        <p>دورة تكوينية للاطفال في الدارة الكهربائية تساعدهم على معرفة الولايات</p>
-                      </div>
-                    </div>
+        <!-- Carousel indicators -->
 
-                    
-                  </div>
+        <ol class="carousel-indicators">
 
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+
+        </ol>   
+
+        <!-- Wrapper for carousel items -->
+
+        <div class="carousel-inner">
+
+            <div class="item active">
+
+
+                <div class="carousel-caption">
+
+                  <h3>First slide label</h3>
+
+                  <p>Lorem ipsum dolor sit amet consectetur…</p>
+
                 </div>
-    			</div><!-- /.navbar-collapse -->
-  			</div><!-- /.container-fluid -->
-  			
-		</nav>
+                <img src="img/nos.jpg" class="img_responsive">
+
+            </div>
+
+            <div class="item">
+
+
+                <div class="carousel-caption">
+
+                  <h3>Second slide label</h3>
+
+                  <p>Aliquam sit amet gravida nibh, facilisis gravida…</p>
+
+                </div>
+                <img src="img/nos.jpg" class="img_responsive">
+
+            </div>
+
+            <div class="item">
+
+                <div class="carousel-caption">
+
+                  <h3>Third slide label</h3>
+
+                  <p>Praesent commodo cursus magna vel…</p>
+
+                </div>
+                <img src="img/nos.jpg" class="img_responsive">
+
+            </div>
+
+        </div>
+
+        <!-- Carousel controls -->
+
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+
+            <span class="glyphicon glyphicon-chevron-left"></span>
+
+        </a>
+
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+
+            <span class="glyphicon glyphicon-chevron-right"></span>
+
+        </a>
+
+    </div>
+
+
+
+<!-- fin Carousel-->
 		<div class="container-fluid">
       <div class="row yellow">
         <div class="row">
-            <div class="col-md-7 col-xs-offset-1">
+            <div class="col-lg-5 col-md-5  col-sm-11 col-xs-11 col-xs-offset-1">
               <h3>Presentation du Club</h3>
               <h4>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, error tenetur omnis fugiat natus minima obcaecati qui, nihil necessitatibus consectetur repellendus, provident dolore corrupti quisquam earum nemo repudiandae Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis a sapiente repellat error laborum possimus ipsum architecto iure reprehenderit mollitia dolore, earum voluptates rerum accusantium totam, ad consectetur enim recusandae.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, beatae non corporis, voluptatibus quibusdam perferendis, asperiores optio neque sequi veniam odio expedita fugiat est officia dolore perspiciatis commodi explicabo fuga.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae deleniti voluptatem, commodi dolorum veniam, quaerat, ratione esse alias in amet adipisci repellat reiciendis, dolore delectus cumque necessitatibus illo id ducimus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, beatae non corporis, 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sed aperiam quaerat nobis optio dolorum rem repellendus dignissimos explicabo aliquam!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos amet quae commodi alias modi, sapiente. Nostrum placeat maiores, corporis, fugit nulla veniam, totam, sunt labore laboriosam reiciendis dolorem officiis doloribus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, eos!
                 <br><a href="#">lire la suite</a>
               </h4>
             </div>
-            <div class="col-md-3">
-              <img src="img/pres.jpg" width="410px" height="305px">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+              <img src="img/pres.jpg" width="629px" height="450px" class="imgcentre">
             </div>
           </div>
 
         </div>
-         
-        </h3>
-      </div>  
+      
       <br>
-
-
-      <div class="row ">
 
       <div class="row">
         <h3>Les Activités du Club</h3>
         <h4 align="center">Notre Club Offre des ACtivités dans la quasitotalité des domaines Scientifiques et Ceci pour toutes Les Tranches d'ages </h4>
       </div>
       <div class="row">
-        <div class="col-sm-3 col-xs-offset-1">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
             <img src="img/robot.png" alt="...">
             <div class="caption">
@@ -220,7 +254,7 @@
           </div>
       
 
-        <div class="col-sm-3 ">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
             <img src="img/robot.png" alt="...">
             <div class="caption">
@@ -232,7 +266,7 @@
            </div>
           </div>
 
-          <div class="col-sm-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
             <img src="img/robot.png" alt="...">
             <div class="caption">
@@ -243,9 +277,8 @@
             </div>
            </div>
           </div>
-      </div>        
-      <div class="row ">
-        <div class="col-sm-3 col-xs-offset-1">
+     
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
             <img src="img/robot.png" alt="...">
             <div class="caption">
@@ -257,7 +290,7 @@
            </div>
           </div>        
 
-          <div class="col-sm-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
             <img src="img/robot.png" alt="...">
             <div class="caption">
@@ -269,7 +302,7 @@
            </div>
           </div>
 
-          <div class="col-sm-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="thumbnail">
             <img src="img/robot.png" alt="...">
             <div class="caption">
@@ -280,7 +313,43 @@
             </div>
            </div>
           </div>
-      </div>
+
+        </div>
+        <div class="row fondbleu">
+            <div class="row"><h3 align="center">Nous Suivre</h3></div>
+            <hr>
+            <div class="row ">
+                  <div class="col-xs-4 col-sm_4 col_md-4 col_lg_4">
+                    <a href="https://www.facebook.com/groups/613892882049280/">
+                       <img class="imgcentre" src="img/fb.png" heigth="80" width="80">
+                       <h4 class="hidden-xs" align="center"> Groupe Facebook</h4>
+                  </a>
+                </div>
+                <div class="col-xs-4 col-sm_4 col_md-4 col_lg_4">
+                    <a href="https://www.facebook.com/pages/Club-Jeunes-Sciences-Hammam-Sousse-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D9%86-%D9%88-%D8%A7%D9%84%D8%B9%D9%84%D9%85-%D8%AD%D9%85%D8%A7%D9%85-%D8%B3%D9%88%D8%B3%D8%A9/298434923513021">
+                        <img class="imgcentre" src="img/page.png" heigth="80" width="80">
+                        <h4 class="hidden-xs" align="center"> Page Facebook</h4>
+                    </a>
+                </div>
+              
+                <div class="col-xs-4 col-sm_4 col_md-4 col_lg_4">
+                      <img class="imgcentre" src="img/g+.png" heigth="80" width="80">
+                      <h4 class="hidden-xs" align="center"> Groupe Google</h4>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div class="row black">
+          <div class="col-xs-2 col-sm-1">
+              <img src="js.png" heigth="50" width="50">  
+          </div>
+          <div class="col-xs-10 col-sm-11">
+              <h4 class="textblanc">Club Jeunes & Sciences Hammam Sousse Errahba (acoté de la bibliothéque municipale) Tel : 55 123 456  E-Mail : cjs.hs@topnet.tn</h4>  
+          </div>
+          
+          
+        </div>
     </div>
     
 		
@@ -291,6 +360,6 @@
 		
 		
 		
-		
+
  		</body>
 </html>

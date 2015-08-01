@@ -15,6 +15,7 @@
   {
     olor: black;
   }
+
   .argent
   {
   	color: silver;
@@ -22,31 +23,52 @@
 
   .logo
  {
-  display: block; 
  	padding-right:20px;
   padding-left: 0px;
   margin-left: 0px;
  	height:150px ;
  	width:180px;
+ }
+.imgcentre
+{
+  display: block; 
   margin-left: auto;
   margin-right: auto;
 
- }
-
+  vertical-align:middle;
+}
 
  #myCarousel
  {
- 	margin-top: 50px;
+ 	margin-top: 0px;
  }
  .yellow
  {
     background-color: #f0ad4e;
  }
-  .gris
- {
-    background-color: #d9534f;
- }
+
+
  h3
  {
   text-align: center;
  }
+p
+{
+  color : black; 
+}
+.navbar
+{
+  margin-bottom: 0px;
+}
+.fondbleu
+{
+  background-color: #eee;
+}
+.enligne
+{
+  display: inline;
+}
+h3
+{
+  vertical-align: center;
+}
